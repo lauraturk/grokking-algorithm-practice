@@ -2,6 +2,7 @@ const assert = require('chai').assert;
 const recursiveCountDown = require('./practice').recursiveCountDown;
 const sumFunction = require('./practice').sumFunction
 const countList = require('./practice').countList
+const maxNumber = require('./practice').maxNumber
 
 describe("recursion", function () {
     it('should count down from 5', function () {
@@ -52,5 +53,10 @@ describe("divide and conquer", function () {
     it('should count the number of items in a list', () => {
         let result = countList([])
         assert.equal(result, 0)
+    });
+
+    it('should find the max number', () => {
+        assert.equal(maxNumber([1, 2, 5, 8, 3]), 8)
+        assert.equal(maxNumber([20, 45]), 45)
     });
 });
