@@ -1,4 +1,5 @@
 [
-  "test.py::test_answer", 
-  "test.py::test_countDownRecursion"
+  "test.py::test_countDownRecursion", 
+  "test.py::test_sumFunction", 
+  "test.py::test_countList"
 ]
