@@ -1,0 +1,16 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "algorithm practice",
+  "main": "recursion.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Laura Turk",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
